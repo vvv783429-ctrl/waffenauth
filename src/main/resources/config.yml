@@ -1,0 +1,38 @@
+settings:
+  min-password-length: 6
+  kick-timeout-seconds: 60
+  max-login-attempts: 5
+  auto-login-by-ip: true
+
+messages:
+  prefix: "&8[&6WaffenAuth&8] &r"
+  register-usage: "&cИспользование: /register <пароль> <пароль>"
+  register-success: "&aВы успешно зарегистрированы и вошли!"
+  register-already: "&eВы уже зарегистрированы. Войдите: /login <пароль>"
+  register-passwords-differ: "&cПароли не совпадают."
+  register-password-short: "&cПароль должен быть не короче %min% символов."
+  login-usage: "&cИспользование: /login <пароль>"
+  login-success: "&aВы успешно вошли!"
+  login-fail: "&cНеверный пароль. Осталось попыток: %left%"
+  login-attempts-exceeded: "&cСлишком много попыток входа. Попробуйте позже."
+  login-not-registered: "&cВы не зарегистрированы. Используйте: /register <пароль> <пароль>"
+  already-logged-in: "&eВы уже авторизованы."
+  not-logged-in: "&cСначала войдите: /login <пароль>"
+  logout-success: "&aВы вышли из аккаунта."
+  changepass-usage: "&cИспользование: /changepass <старый> <новый>"
+  changepass-wrong-old: "&cСтарый пароль неверен."
+  changepass-success: "&aПароль успешно изменён."
+  changepass-short: "&cНовый пароль должен быть не короче %min% символов."
+  kick-timeout: "&cВы слишком долго не авторизовывались."
+  reminder-register: "&eЗарегистрируйтесь: &f/register <пароль> <пароль>"
+  reminder-login: "&eВойдите: &f/login <пароль>"
+  auto-login-success: "&aВы автоматически вошли (IP совпал)."
+  help:
+    - "&8&m----------&r &6WaffenAuth &8&m----------"
+    - "&e/register <пароль> <пароль> &7— регистрация"
+    - "&e/login <пароль> &7— вход"
+    - "&e/logout &7— выход"
+    - "&e/changepass <старый> <новый> &7— смена пароля"
+    - "&e/waffenauth help &7— эта справка"
+    - "&e/waffenauth reload &7— перезагрузить конфиг"
+    - "&8&m------------------------------"

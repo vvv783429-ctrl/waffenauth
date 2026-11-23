@@ -1,0 +1,21 @@
+name: WaffenAuth
+version: '1.0'
+main: ru.waffenbot.auth.AuthPlugin
+api-version: '1.21'
+commands:
+  register:
+    description: Регистрация аккаунта
+    usage: /register <пароль> <пароль>
+  login:
+    description: Вход в аккаунт
+    usage: /login <пароль>
+  logout:
+    description: Выход из аккаунта
+    usage: /logout
+  changepass:
+    description: Смена пароля
+    usage: /changepass <старый> <новый>
+  waffenauth:
+    description: Управление плагином
+    usage: /waffenauth help
+    aliases: [wa]
